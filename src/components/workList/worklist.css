@@ -1,0 +1,36 @@
+.pl {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	
+}
+
+.pl-text {
+	align-items: center;
+	text-align: center;	
+}
+.pl-desc {
+	font-size: larger;
+	font-weight: 500;
+}
+
+.pl-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.line {
+	border-bottom: 3px solid var(--orange-theme);
+	width: 70vw;
+	height: 3px;
+	margin: 25px 0px;
+}
+
+@media screen and (max-width: 768px) {
+	.pl-text {
+		font-size: 15px;
+	}
+}

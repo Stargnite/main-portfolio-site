@@ -1,0 +1,166 @@
+.body {
+  display: flex;
+}
+
+.i {
+  display: flex;
+  height: 100vh;
+}
+
+.i-left {
+  flex: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+
+  animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.i-right {
+  flex: 1;
+  position: relative;
+}
+
+.i-left-wrapper {
+  padding: 50px;
+  /* padding-right: 10px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+}
+
+.i-intro {
+  display: flex;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.hello {
+  font-family: Damion;
+}
+
+.i-name {
+  font-size: 50px;
+}
+
+.i-title {
+  height: 50px;
+  overflow: hidden;
+}
+
+.i-title-wrapper {
+  height: 100%;
+  color: var(--orange-theme);
+  font-family: Kavivanar;
+  padding-top: 5px;
+  animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  75% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+.i-title-item {
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.i-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.i-bg {
+  clip-path: circle(50% at 50% 50%);
+  background-color: var(--orange-theme);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Mobile phones start */
+@media screen and (max-width: 500px) {
+  .i {
+    flex-direction: column;
+  }
+
+  .i-left-wrapper {
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90%;
+  }
+
+  .i-title-item {
+    text-align: center;
+    align-self: center;
+    width: 100%;
+  }
+
+  .i-desc {
+    display: none;
+  }
+}
+
+/* smallest screens */
+@media screen and (max-width: 395px) {
+  .i-name {
+    font-size: 30px;
+  }
+}
+/* smallest screens end */
+
+/* Mobile phones end */
+
+@media screen and (max-width: 770px) {
+  .i {
+    flex-direction: column;
+  }
+
+  .i-intro {
+    font-size: 20px;
+  }
+  .i-name {
+    font-size: 25px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .i-name {
+    font-size: 40px;
+  }
+
+  .i-right {
+    overflow: visible;
+  }
+}

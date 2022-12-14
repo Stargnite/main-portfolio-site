@@ -1,0 +1,39 @@
+.about {
+	padding: 3% 3%;
+
+	animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+
+.about-me {
+	font-family: 'Mali', cursive, 'Rubik Vinyl';
+}
+
+.about-text {
+	font-family: 'Mali', cursive;
+	/* font-weight: 600; */
+}
+
+.quote {
+	font-weight: bolder;
+	font-size: 1.7rem;
+	text-align: center;
+	align-items: center;
+	max-width: 700px;
+	/* padding: 0; */
+	position: relative;
+	left: 10%;
+	bottom: 1%;
+}
+
+@media screen and (max-width: 650px) {
+	.text p {
+		font-size: 1rem;
+	} 
+
+	.header h1,
+	.text h2 {
+		font-size: 1.5rem
+	}
+}

@@ -1,0 +1,161 @@
+.contact {
+	height: 100%;
+	animation: drop-down ease 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes drop-down {
+    0% {
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.c-bg {
+	position: absolute;
+	height: 100vh;
+	width: 2%;
+	background-color: var(--theme-color);
+}
+
+.c-wrapper {
+	padding: 20px;
+	display: flex;
+}
+
+.c-title {
+	font-weight: 900;
+	font-size: 60px;
+}
+
+.c-left {
+	flex: 1;
+
+}
+.c-right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.c-info-item {
+	margin-bottom: 5%;
+	display: flex;
+	width: 250px;
+}
+
+.c-desc-sm {
+	display: none;
+}
+
+.c-info-item a {
+	display: flex;
+}
+
+.c-icon {
+	width: 40px;
+	height: 40px;
+	margin-right: 5%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.c-box {
+	width: 300px;
+	height: 50px;
+	margin: 15px 0px;
+	padding-left: 10px; 
+	border: none;
+	box-shadow: -1px 5px 4px 0px rgba(0,0,0,0.51);
+-webkit-box-shadow: -1px 5px 4px 0px rgba(0,0,0,0.51);
+-moz-box-shadow: -1px 5px 4px 0px rgba(0,0,0,0.51);
+}
+.text-area {
+	width: 70%;
+	margin: 15px 0px;
+	font-size: 15px;
+	padding-left: 10px; 
+}
+
+.submit {
+	width: 100px;
+	height: 50px;
+	font-size: large;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background-color: var(--orange-theme);
+	margin-right: 5%;
+}
+.btn-alert {
+	display: flex;
+}
+
+
+
+
+
+
+/* Mobile phones start */
+@media screen and (max-width: 700px) {
+	.contact {
+		padding-bottom:25%; 
+	}
+
+	.c-wrapper {
+	  flex-direction: column;
+	  padding: 0px 50px;
+	  padding-bottom: 10px;
+	}
+	
+	.c-title {
+		font-size: 30px;
+	}
+
+	.c-info-item {
+		margin: 25px 0px;
+		width: 100%;
+	}
+
+	.c-desc {
+		display: none
+	}
+	.c-desc-sm {
+		display: block;
+	}
+
+	form {
+		margin-top: 0px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	input {
+		width: 35px;
+		height: 40px;
+		margin: 10px;
+		margin-left: 0;
+	}
+  }
+
+  @media screen and (max-width: 395px) {
+	input {
+		width: 15px;
+	}
+  }
+
+  /* Mobile phones end */
+
+  @media screen and (max-width: 930px) {
+	.c-title {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+  }

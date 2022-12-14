@@ -1,0 +1,59 @@
+.cards {
+  width: 20%;
+  height: 29vh;
+  margin: 20px 10px;
+  border: 1px solid var(--orange-theme);
+  border-top-right-radius: 20px;
+  overflow: hidden;
+
+  animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+}
+
+.c-browser {
+  background-color: var(--orange-theme);
+  height: 20px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 2;
+}
+
+.c-circle {
+  width: 10px;
+  height: 10px;
+  margin: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.p-img {
+	width: 100%;
+	object-fit: cover;
+	transition: all 10s ease;
+}
+
+.cards:hover .p-img {
+	transform: translateY(-100%)
+}
+
+.p-desc {
+  color: red;
+  background-color: #212;
+  position: sticky;
+  font-size: 20px;
+  z-index: 1;
+}
+
+
+@media screen and (max-width: 770px) {
+  .cards {
+    width: 40%;
+    height: 25vh;
+  }
+}
+
+@media screen and (max-width: 770px) {
+
+}
