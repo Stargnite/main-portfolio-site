@@ -1,5 +1,5 @@
 .about {
-	padding: 3% 3%;
+	padding: 7% 3%;
 
 	animation: fadeInAnimation ease 1.5s;
     animation-iteration-count: 1;
@@ -17,14 +17,9 @@
 
 .quote {
 	font-weight: bolder;
-	font-size: 1.7rem;
+	font-size: 1.2rem;
+	font-style: italic;
 	text-align: center;
-	align-items: center;
-	max-width: 700px;
-	/* padding: 0; */
-	position: relative;
-	left: 10%;
-	bottom: 1%;
 }
 
 @media screen and (max-width: 650px) {
@@ -35,5 +30,10 @@
 	.header h1,
 	.text h2 {
 		font-size: 1.5rem
+	}
+
+	.quote {
+		font-size: 1rem;
+		max-width: 300px;
 	}
 }

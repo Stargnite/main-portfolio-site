@@ -1,17 +1,10 @@
 .contact {
 	height: 100%;
-	animation: drop-down ease 0.5s;
+	animation: fadeInAnimation ease 0.5s;
     animation-iteration-count: 1;
 }
 
-@keyframes drop-down {
-    0% {
-        transform: translateY(-10%);
-    }
-    100% {
-        transform: translateY(0%);
-    }
-}
+
 
 .c-bg {
 	position: absolute;
@@ -21,13 +14,14 @@
 }
 
 .c-wrapper {
-	padding: 20px;
+	padding: 30px;
+	padding-top: 5%;
 	display: flex;
 }
 
 .c-title {
-	font-weight: 900;
-	font-size: 60px;
+	font-weight: 800;
+	font-size: 50px;
 }
 
 .c-left {
@@ -53,6 +47,7 @@
 
 .c-info-item a {
 	display: flex;
+	color: inherit;
 }
 
 .c-icon {

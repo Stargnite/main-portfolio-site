@@ -8,7 +8,8 @@
 
 .pl-text {
 	align-items: center;
-	text-align: center;	
+	text-align: center;
+	margin: 3% 2%;
 }
 .pl-desc {
 	font-size: larger;

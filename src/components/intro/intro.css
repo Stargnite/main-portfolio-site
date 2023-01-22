@@ -112,6 +112,14 @@
     flex-direction: column;
   }
 
+  .i-left {
+    text-align: center;
+  }
+  .i-intro {
+    text-align: center;
+
+  }
+
   .i-left-wrapper {
     padding: 15px;
     align-items: center;

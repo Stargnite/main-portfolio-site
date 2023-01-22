@@ -1,1 +1,22 @@
+.general {
+	transition: 1s ease;
+}
 
+.small-screen {
+	display: none;
+}
+
+.copy-right {
+	margin: 0;
+	text-align: center;
+}
+
+@media screen and (max-width:768px) {
+	.big-screen {
+		/* display: none; */
+	}
+
+	.small-screen {
+		display: block;
+	}
+}

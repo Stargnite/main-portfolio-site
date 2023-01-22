@@ -1,0 +1,12 @@
+.skills-content {
+	text-align: center;
+}
+
+.skill-icons {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.skill-logo {
+	width: 15vh;
+}

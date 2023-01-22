@@ -1,4 +1,4 @@
-.nav {
+.navbar {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -12,6 +12,9 @@
 	animation: slider ease 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: backwards;
+}
+.small-nav {
+	display: none;
 }
 
 @keyframes slider {
@@ -45,4 +48,19 @@
 	border-radius: 20%;
 	padding: 5px;
 	/* color: white; */
+}
+
+
+
+
+
+/* for mobile */
+@media screen and (max-width:768px) {
+	.navbar {
+		display: none;
+	}
+
+	.small-nav {
+		display: block;
+	}
 }

@@ -22,9 +22,7 @@ function About() {
         </p>
 
         <div className="quote">
-        <p>
           “In order to attain mastery, consistency has to be the order of the day.”
-          </p>
         </div>
       </div>
     </div>
