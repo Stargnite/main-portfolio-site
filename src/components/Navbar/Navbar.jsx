@@ -43,10 +43,8 @@ export default function Navbar() {
           >
             Contact
           </NavLink>
-          <a
-            href="C:\Users\Oluwatobiloba\OneDrive\Documents\Resume\Resume-Tobiloba-Sobayo.pdf"
-            download
-          >
+
+          <a href="src\assets\sobayoResume.pdf" download>
             <button className="resume">
               <i class="fa fa-download"></i>Resume
             </button>
