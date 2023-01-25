@@ -14,9 +14,11 @@
 }
 
 .c-wrapper {
-	padding: 30px;
+	padding-left: 20px;
+	padding-right: 15px;
 	padding-top: 5%;
 	display: flex;
+	overflow: hidden;
 }
 
 .c-title {
@@ -76,7 +78,8 @@ form {
 	width: 70%;
 	margin: 15px 0px;
 	font-size: 15px;
-	padding-left: 10px; 
+	padding-left: 10px;
+	resize: none;
 }
 
 .submit {

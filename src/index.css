@@ -43,6 +43,7 @@ h1 {
 
 .current-screen {
   display: flex;
+  width: auto;
 }
 
 @media screen and (max-width:768px) {

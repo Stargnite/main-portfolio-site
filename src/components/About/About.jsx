@@ -15,7 +15,7 @@ function About() {
           everyone along.
         </p>
         <p>
-          &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;Being passionate about my work,
+          &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;Being passionate about my career,
           I am always motivated to put forth my best work in any project I work
           on. I am always curious to acquire knowledge and I always find the
           need to stay updated about anything going on in the tech industry.
