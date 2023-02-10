@@ -2,6 +2,7 @@
 	height: 100%;
 	animation: fadeInAnimation ease 0.5s;
     animation-iteration-count: 1;
+	margin: 0;
 }
 
 
@@ -41,7 +42,7 @@
 .c-info-item {
 	margin-bottom: 5%;
 	display: flex;
-	width: 250px;
+	width: 400px;
 }
 
 .c-desc-sm {
@@ -119,7 +120,7 @@ form {
 	}
 
 	.c-info-item {
-		margin: 25px 0px;
+		margin: 20px 0px;
 		width: auto;
 	}
 
@@ -165,7 +166,7 @@ form {
 
 	.c-info {
 		display: flex;
-		flex-wrap: wrap;
+		/* flex-wrap: wrap; */
 		justify-content: center;
 	}
 
