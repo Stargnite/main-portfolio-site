@@ -16,13 +16,16 @@
 }
 
 .quote {
-	font-weight: bolder;
+	color: #949494;
 	font-size: 1.2rem;
 	font-style: italic;
 	text-align: center;
 }
 
 @media screen and (max-width: 650px) {
+	.about-me {
+		text-align: center;
+	}
 	.text p {
 		font-size: 1rem;
 	} 
@@ -34,6 +37,6 @@
 
 	.quote {
 		font-size: 1rem;
-		max-width: 300px;
+		/* max-width: 300px; */
 	}
 }

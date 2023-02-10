@@ -9,31 +9,40 @@ import git from './../../assets/images/git-3d-logo.png'
  const skillIcons = [
 	{
 		id: 1,
-		imgLink: html
+		imgLink: html,
+		name: 'HTML',
 	},
 	{
 		id: 2,
-		imgLink: css
+		imgLink: css,
+		name: 'CSS',
+
 	},
 	{
 		id: 3,
-		imgLink: javascript
+		imgLink: javascript,
+		name: 'JAVASCRIPT',
 	},
 	{
 		id: 4,
-		imgLink: react
+		imgLink: react,
+		name: 'REACT',
 	},
 	{
 		id: 5,
-		imgLink: vue
+		imgLink: vue,
+		name: 'VUE',
 	},
 	{
 		id: 6,
-		imgLink: github
+		imgLink: github,
+		name: 'GITHUB',
 	},
 	{
 		id: 7,
-		imgLink: git
+		imgLink: git,
+		name: 'GIT',
+
 	},
 ]
 

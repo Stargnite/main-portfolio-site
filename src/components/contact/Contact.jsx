@@ -4,6 +4,7 @@ import Email from "./../../assets/images/email.png";
 import Address from "./../../assets/images/address.png";
 import Twitter from "./../../assets/images/twitter.png";
 import Linkedin from "./../../assets/images/linkedin.png";
+import GitHub from "./../../assets/images/github.png";
 import { useRef, useState, useContext } from "react";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
@@ -39,33 +40,38 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">
-            Contact me, Let's discuss
-          </h1>
+          <h3 className="c-title">Let's Connect</h3>
           <div className="c-info">
+            <div className="c-info-item">
+              <a href="https://github.com/Stargnite" target="_blank">
+                <img src={GitHub} alt="" className="c-icon" />
+                <p>@Stargnite</p>
+              </a>
+            </div>
+
             <div className="c-info-item">
               <a href="https://twitter.com/TobiSobayo1" target="_blank">
                 <img src={Twitter} alt="" className="c-icon" />
-                @TobiSobayo1
+                <p>@TobiSobayo1</p>
               </a>
             </div>
             <div className="c-info-item">
               <a href="https://www.linkedin.com/in/shobam/" target="_blank">
                 <img src={Linkedin} alt="" className="c-icon" />
-                Tobiloba Sobayo
+                <p>Tobiloba Sobayo</p>
               </a>
             </div>
             <div className="c-info-item">
               <img src={Email} alt="" className="c-icon" />
-              sobayotoby@gmail.com
+              <p>sobayotoby@gmail.com</p>
             </div>
             <div className="c-info-item">
-              <img src={Phone} alt="" className="c-icon" />
-              +234-902-9265-732
+              <img src={Phone} alt="" className="c-icon" id='rm-info'/>
+              <p>+234-902-9265-732</p>
             </div>
             <div className="c-info-item">
-              <img src={Address} alt="" className="c-icon" />
-              Lagos, Nigeria
+              <img src={Address} alt="" className="c-icon" id='rm-info'/>
+              <p>Lagos, Nigeria</p>
             </div>
           </div>
         </div>
@@ -120,7 +126,9 @@ const Contact = () => {
               className="text-area"
             ></textarea>
             <div className="btn-alert">
-              <button className="submit" type="submit">Submit</button>
+              <button className="submit" type="submit">
+                Submit
+              </button>
               {success && "Successfully sent..."}
             </div>
           </form>

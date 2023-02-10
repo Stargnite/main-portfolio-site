@@ -34,7 +34,7 @@
 }
 
 .i-left-wrapper {
-  padding: 50px;
+  padding: 40px;
   /* padding-right: 10px; */
   /* display: flex; */
   /* flex-direction: column; */
@@ -52,7 +52,9 @@
 }
 
 .i-name {
-  font-size: 50px;
+  font-size: 45px;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .i-title {
@@ -110,14 +112,11 @@
 @media screen and (max-width: 500px) {
   .i {
     flex-direction: column;
+    margin-top: 7vh;
   }
 
   .i-left {
     text-align: center;
-  }
-  .i-intro {
-    text-align: center;
-
   }
 
   .i-left-wrapper {

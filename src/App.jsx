@@ -8,7 +8,8 @@ import Worklist from './components/workList/Worklist'
 import About from './components/About/About'
 import Intro from './components/intro/intro'
 import Skills from './components/skills/Skills'
-import Toggle from "./components/toggle/Toggle";
+// import Toggle from "./components/toggle/Toggle";
+import NavBarSmall from "./components/SS-navbar/NavBarSmall";
 
 function App() {
   const theme = useContext(ThemeContext);
@@ -18,7 +19,7 @@ function App() {
     <div
       className="general"
       style={{
-        backgroundColor: darkMode ? "#222" : "#e6e1df",
+        backgroundColor: darkMode ? "#222" : "white",
         color: darkMode && "white",
       }}
     >
@@ -31,6 +32,7 @@ function App() {
         </div>
         <div className="small-screen">
         {/* <Toggle /> */}
+        <NavBarSmall />
         <About />
         <Skills />
         <Worklist />

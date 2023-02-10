@@ -22,8 +22,9 @@
 }
 
 .c-title {
-	font-weight: 800;
+	font-weight: 600;
 	font-size: 50px;
+	margin-bottom: 10%;
 }
 
 .c-left {
@@ -119,7 +120,7 @@ form {
 
 	.c-info-item {
 		margin: 25px 0px;
-		width: 100%;
+		width: auto;
 	}
 
 	.c-desc {
@@ -151,9 +152,32 @@ form {
 
   /* Mobile phones end */
 
-  @media screen and (max-width: 930px) {
+  @media screen and (max-width: 900px) {
 	.c-title {
-		font-size: 30px;
+		font-size: 35px;
 		margin-bottom: 10px;
+		text-align: center;
+	}
+}
+
+  @media screen and (max-width: 700px) {
+
+
+	.c-info {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	#rm-info {
+		display: none;
+	}
+
+	.c-info-item::hover {
+		background-color: #fff;
+	}
+
+	.c-info-item p {
+		display: none;
 	}
   }
