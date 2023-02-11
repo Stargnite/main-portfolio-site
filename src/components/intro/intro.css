@@ -112,7 +112,7 @@
 @media screen and (max-width: 500px) {
   .i {
     flex-direction: column;
-    padding-top: 7vh;
+    padding-top: 10vh;
   }
 
   .i-name {
@@ -122,14 +122,14 @@
 
   .i-left {
     text-align: center;
+    justify-content: center;
   }
 
   .i-left-wrapper {
-    padding: 15px;
+    /* padding: 15px; */
     align-items: center;
     justify-content: center;
-    text-align: center;
-    height: 90%;
+    height: 100%;
   }
 
   .i-title-item {

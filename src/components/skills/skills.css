@@ -42,6 +42,14 @@ hr {
 
 .logo-name {
 	text-align: center;
+	color: #fff;
+}
+
+@media screen and (max-width: 750px) {
+	.skill-icons {
+		max-width: 710PX;
+		overflow: hidden;
+	}
 }
 
 @media screen and (max-width: 650px) {
