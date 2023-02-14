@@ -3,7 +3,7 @@ import Me from "./../../assets/images/Me.png";
 
 const Intro = () => {
   return (
-    <div className="i">
+    <div className="i" id="home">
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro"><div className="hello">Hello</div>, my name is</h2>

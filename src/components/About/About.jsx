@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <h1 className="about-me">About me</h1>
       <div className="about-text">
         <p>
@@ -25,6 +25,7 @@ function About() {
           “In order to attain mastery, consistency has to be the order of the day.”
         </div>
       </div>
+      <hr />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import Work from "../work/Work";
 
 const Worklist = () => {
   return (
-    <div className="pl"> <hr />
+    <div className="pl" id="works"> <hr />
       <div className="pl-text">
         <h1 className="pl-title">Check out some of my works</h1>
         <p className="pl-desc">
