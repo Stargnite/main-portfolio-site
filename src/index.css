@@ -15,7 +15,7 @@ a {
 	text-decoration: none;
 	color: inherit;
   color: whitesmoke;
-	width: 120px;
+	/* width: 120px; */
 }
 
 a:hover {

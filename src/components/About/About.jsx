@@ -25,7 +25,6 @@ function About() {
           “In order to attain mastery, consistency has to be the order of the day.”
         </div>
       </div>
-      <hr />
     </div>
   );
 }

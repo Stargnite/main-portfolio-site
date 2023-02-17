@@ -1,25 +1,44 @@
 import "./navbar-small.css";
-// import { Link } from "react-router-dom";
 
 const NavBarSmall = () => {
+
+  let isActive = false;
+  const toggleNav = () => {
+    const nav = document.querySelector("#small-nav");
+    const toggle = document.querySelector(".toggle-nav");
+    if (!isActive) {
+      nav.classList.add("active");
+      toggle.classList.add("active");
+      isActive = true;
+    } else {
+      nav.classList.remove("active");
+      toggle.classList.remove("active");
+      isActive = false;
+    }
+  }
+
   return (
     <nav className="overall">
       <div className="logo">Shobam</div>
-      <div className="nav-btn">
+      <div className="nav-btns">
         <a
           href="https://docs.google.com/document/d/1HRSf0vq37Z9WphhQIGYmm6_MhlFd1HDAiVhO63MWrik/edit?usp=sharing"
           target="_blank"
         >
           <button className="resume">
-            <i class="fa fa-download"></i>Resume
+            Resume
           </button>
         </a>
 
-        <div class="toggle-nav">
+        <div class="toggle-nav" onClick={toggleNav}>
           <i class="fas fa-bars"></i>
         </div>
       </div>
-      <ul>
+
+
+
+
+      <ul id='small-nav'>
         <li>
           <a href="#home">Home</a>
         </li>
