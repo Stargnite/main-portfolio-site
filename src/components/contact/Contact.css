@@ -40,7 +40,6 @@
 .c-info-item {
   margin-bottom: 5%;
   display: flex;
-  width: 400px;
 }
 
 .c-desc-sm {
@@ -55,7 +54,7 @@
 .c-icon {
   width: 40px;
   height: 40px;
-  margin-right: 5%;
+  margin-right: 3%;
 }
 
 form {
@@ -114,7 +113,7 @@ form {
   .c-wrapper {
     flex-direction: column;
     padding: 0px 50px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
 
   .c-title {
@@ -122,8 +121,8 @@ form {
   }
 
   .c-info {
-    
-]  }
+    /* justify-content: center; */
+  }
 
   .c-left,
   .c-right {
@@ -131,7 +130,7 @@ form {
   }
 
   .c-info-item {
-    margin: 25px 25px;
+    margin: 2rem;
   }
 
   .c-desc {

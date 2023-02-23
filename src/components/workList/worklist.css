@@ -21,6 +21,8 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 100%;
+	padding: 0 5%;
+
 }
 
 .line {
@@ -32,6 +34,8 @@
 
 @media screen and (max-width: 768px) {
 	.pl-text {
-		font-size: 15px;
+		font-size: 13px;
 	}
+
+	
 }

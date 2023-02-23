@@ -108,12 +108,18 @@
 @media screen and (max-width: 500px) {
   .i {
     flex-direction: column;
-    padding-top: 10vh;
+    padding-top: 12vh;
+  }
+
+  .i-intro {
+    margin-bottom: 3%;
   }
 
   .i-name {
     text-align: center;
-    justify-content: center;
+    margin-bottom: 7%;
+
+    /* justify-content: center; */
   }
 
   .i-left {

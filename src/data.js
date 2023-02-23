@@ -15,7 +15,7 @@ export const projectItem = [
     id: 3,
     img: "https://i.ibb.co/njKN719/projectshot3.png",
     link: "https://sobayo-open-source1.netlify.app/",
-    desc: "Open source contribution"
+    desc: "Open source"
   },
   {
     id: 4,
