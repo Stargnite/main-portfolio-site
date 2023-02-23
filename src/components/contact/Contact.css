@@ -29,6 +29,7 @@
 .c-left {
   flex: 1;
 }
+
 .c-right {
   flex: 1;
   display: flex;
@@ -95,6 +96,14 @@ form {
   display: flex;
 }
 
+
+
+
+
+
+
+
+
 /* Mobile phones start */
 @media screen and (max-width: 700px) {
   .contact {
@@ -113,9 +122,8 @@ form {
   }
 
   .c-info {
-    display: flex;
-    align-items: center;
-  }
+    
+]  }
 
   .c-left,
   .c-right {
@@ -123,8 +131,7 @@ form {
   }
 
   .c-info-item {
-    margin: 20px 30px;
-    width: auto;
+    margin: 25px 25px;
   }
 
   .c-desc {
@@ -170,11 +177,9 @@ form {
     margin-top: 10%;
   }
 
-  /* .c-info {
+  .c-info {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  } */
+  }
 
   #rm-info {
     display: none;

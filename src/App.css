@@ -21,6 +21,11 @@ body {
 }
 
 @media screen and (max-width:768px) {
+	html {
+		box-sizing: border-box;
+		scroll-behaviour: smooth;
+	}
+
 	.big-screen {
 		/* display: none; */
 	}

@@ -31,7 +31,6 @@ function App() {
           </div>
         </div>
         <div className="small-screen">
-          {/* <Toggle /> */}
           <NavBarSmall />
           <About />
           <Skills />
