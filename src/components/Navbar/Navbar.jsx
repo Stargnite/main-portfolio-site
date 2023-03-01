@@ -19,6 +19,16 @@ export default function Navbar() {
           >
             About
           </NavLink>
+
+          <NavLink
+            to="./services"
+            className={({ isActive }) => {
+              return "nav-link" + (isActive ? " highlight" : "");
+            }}
+          >
+            Services
+          </NavLink>
+
           <NavLink
             to="./worklist"
             className={({ isActive }) => {

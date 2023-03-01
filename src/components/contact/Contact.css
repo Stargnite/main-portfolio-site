@@ -13,8 +13,7 @@
 }
 
 .c-wrapper {
-  padding-left: 20px;
-  padding-right: 15px;
+  padding: 0 2rem;
   padding-top: 5%;
   display: flex;
   overflow: hidden;
@@ -73,6 +72,7 @@ form {
   -webkit-box-shadow: -1px 5px 4px 0px rgba(0, 0, 0, 0.51);
   -moz-box-shadow: -1px 5px 4px 0px rgba(0, 0, 0, 0.51);
 }
+
 .text-area {
   width: 70%;
   margin: 15px 0px;
@@ -112,7 +112,6 @@ form {
 
   .c-wrapper {
     flex-direction: column;
-    padding: 0px 50px;
     padding-bottom: 20px;
   }
 
@@ -121,7 +120,14 @@ form {
   }
 
   .c-info {
-    /* justify-content: center; */
+    display: flex;
+	  align-items: center;
+    padding-left: 5rem; 
+    justify-content: center;
+  }
+
+  .c-info-item {
+    margin: 1.5rem;
   }
 
   .c-left,
@@ -129,9 +135,7 @@ form {
     margin-top: 10%;
   }
 
-  .c-info-item {
-    margin: 2rem;
-  }
+ 
 
   .c-desc {
     display: none;
@@ -153,14 +157,10 @@ form {
     margin-left: 0;
   }
 }
-
-@media screen and (max-width: 395px) {
-  input {
-    width: 15px;
-  }
-}
-
 /* Mobile phones end */
+
+
+
 
 @media screen and (max-width: 900px) {
   .c-title {
@@ -174,10 +174,6 @@ form {
   .c-desc-sm {
     text-align: center;
     margin-top: 10%;
-  }
-
-  .c-info {
-    display: flex;
   }
 
   #rm-info {

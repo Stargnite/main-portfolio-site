@@ -1,0 +1,78 @@
+#services {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 1.3rem 1rem;
+}
+
+#services h1 {
+	font-weight: 700;
+	font-family: cursive;
+}
+
+.s-cont {
+	display: flex;
+	margin-top: 10vh;
+	justify-content: space-around;
+}
+
+.s-item {
+	box-shadow: 2px 2px 2px #434445;
+	padding: 1rem;
+	border-radius: 20px;
+	margin: 0.3rem;
+	background-color: rgb(31 41 55/1);
+	max-width: 50vw;
+}
+
+.s-item:hover {
+	transition-timing-function: cubic-bezier(.4,0,.2,1);
+	transition-duration: .5s;
+}
+
+.s-item-head {
+	font-weight: bold;
+	white-space: nowrap;
+	letter-spacing: -.05em;
+	text-transform: capitalize;
+	font-family: 'Mali', cursive, 'Rubik Vinyl';
+}
+
+.s-item-img img {
+	width: 5rem;
+	height: 5rem;
+	margin: 1rem 0.5rem;
+}
+
+
+/* Mobile Screen size */
+@media screen and (max-width: 767px) {
+	.s-cont {
+		flex-direction: column;
+		margin: 1rem;
+	}
+
+	.s-item {
+		margin-top: 2rem;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.s-item-head {
+		font-weight: bold;
+		white-space: normal;
+		}
+}
+
+
+
+@media screen and (max-width: 1020px) {
+	.s-item-head {
+		font-size: 17px;
+	}
+
+	.s-item-img {
+		
+	}
+}

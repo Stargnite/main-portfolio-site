@@ -12,7 +12,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  justify-content: space-between;
 
   animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
@@ -53,14 +52,21 @@
   white-space: nowrap;
 }
 
+.highlight-name {
+  text-decoration: underline;
+  text-decoration-color: var(--orange-theme);
+
+}
+
 .i-title {
   height: 50px;
   overflow: hidden;
+  margin: 3rem 0;
 }
 
 .i-title-wrapper {
   height: 100%;
-  color: var(--orange-theme);
+  color: #4D8FAC;
   font-family: Kavivanar;
   padding-top: 5px;
   animation: move 10s ease-in-out infinite alternate;
