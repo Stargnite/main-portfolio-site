@@ -6,6 +6,7 @@ const NavBarSmall = () => {
   const toggleNav = () => {
     const nav = document.querySelector("#small-nav");
     const toggle = document.querySelector(".toggle-nav");
+
     if (!isActive) {
       nav.classList.add("active");
       toggle.classList.add("active");
@@ -14,7 +15,7 @@ const NavBarSmall = () => {
       nav.classList.remove("active");
       toggle.classList.remove("active");
       isActive = false;
-    }
+    } 
   }
 
   return (
@@ -40,19 +41,19 @@ const NavBarSmall = () => {
 
       <ul id='small-nav'>
         <li>
-          <a href="#home">Home</a>
+          <a href="#home" onClick={toggleNav}>Home</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about" onClick={toggleNav}>About</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#services" onClick={toggleNav}>Services</a>
         </li>
         <li>
-          <a href="#works">Works</a>
+          <a href="#works" onClick={toggleNav}>Works</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact" onClick={toggleNav}>Contact</a>
         </li>
       </ul>
     </nav>

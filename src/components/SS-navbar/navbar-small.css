@@ -10,6 +10,8 @@ nav {
   display: flex;
   padding: 2%;
   justify-content: space-between;
+  position: fixed;
+
 }
 
 .nav-btns {
@@ -29,7 +31,6 @@ nav {
   padding: 0 5%;
   color: white;
 }
-
 
 ul {
   list-style: none;
