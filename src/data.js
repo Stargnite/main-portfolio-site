@@ -5,17 +5,18 @@ export const projectItem = [
     link: "https://sobayo-bootstrap-portfolio.netlify.app/",
     desc: "Bootstrap portfolio"
   },
-  {
-    id: 2,
-    img: "https://i.ibb.co/s50BrC3/projectshot2.png",
-    link: "https://sobayo-restaurant-website.netlify.app/",
-    desc: "Restaurant website"
-  },
+  
   {
     id: 3,
     img: "https://i.ibb.co/njKN719/projectshot3.png",
     link: "https://sobayo-open-source1.netlify.app/",
     desc: "Open source"
+  },
+  {
+    id: 2,
+    img: "https://i.ibb.co/s50BrC3/projectshot2.png",
+    link: "https://sobayo-restaurant-website.netlify.app/",
+    desc: "Restaurant website"
   },
   {
     id: 4,

@@ -9,7 +9,6 @@ import About from "./components/About/About";
 import Intro from "./components/intro/intro";
 import Services from "./components/myServices/Services";
 import Skills from "./components/skills/Skills";
-// import Toggle from "./components/toggle/Toggle";
 import NavBarSmall from "./components/SS-navbar/NavBarSmall.jsx";
 
 function App() {

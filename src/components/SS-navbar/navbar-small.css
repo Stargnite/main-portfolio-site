@@ -11,7 +11,7 @@ nav {
   padding: 2%;
   justify-content: space-between;
   position: fixed;
-
+  z-index: 10;
 }
 
 .nav-btns {

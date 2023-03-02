@@ -23,7 +23,9 @@ const Services = () => {
           <div className="s-item-img">
             <img src={webDev} alt="" />
           </div>
-          <p>
+          <p style={{
+			        color: darkMode ? "rgb(156 163 175/1)" : "#4d4e4f",
+		  }}>
             Custom designs and development using HTML, CSS, JavaScript and
             frameworks like React or Vue.js
           </p>
@@ -38,7 +40,9 @@ const Services = () => {
           <div className="s-item-img">
             <img src={responsiveWeb} alt="computer" />
           </div>
-          <p>
+          <p style={{
+			        color: darkMode ? "rgb(156 163 175/1)" : "#4d4e4f",
+		  }}>
             Developing websites that adapt to different screen sizes and
             devices, ensuring that the website looks and functions well on all
             devices
@@ -54,7 +58,9 @@ const Services = () => {
           <div className="s-item-img">
             <img src={api} alt="" />
           </div>
-          <p>
+          <p style={{
+			        color: darkMode ? "rgb(156 163 175/1)" : "#4d4e4f",
+		  }}>
             Implementing and manipulation of APIs to build larger webites, communicate
 			with other servers and keeping the site up to date.
           </p>
