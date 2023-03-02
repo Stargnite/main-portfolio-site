@@ -3,6 +3,8 @@
   animation: fadeInAnimation ease 0.5s;
   animation-iteration-count: 1;
   margin: 0;
+  padding-top: 7%;
+
 }
 
 .c-bg {
