@@ -4,7 +4,6 @@
 	align-items: center;
 	text-align: center;
 	margin: 1.3rem 1rem;
-	padding-top: 15%;
 }
 
 #services h1 {
@@ -52,6 +51,9 @@
 
 /* Mobile Screen size */
 @media screen and (max-width: 767px) {
+	#services {
+		padding-top: 15%;
+	}
 	.s-cont {
 		flex-direction: column;
 		margin: 1rem;

@@ -3,8 +3,6 @@
   animation: fadeInAnimation ease 0.5s;
   animation-iteration-count: 1;
   margin: 0;
-  padding-top: 7%;
-
 }
 
 .c-bg {
@@ -109,6 +107,7 @@ form {
 @media screen and (max-width: 700px) {
   .contact {
     margin-top: 20%;
+    padding-top: 7%;
     padding-bottom: 10%;
   }
 
