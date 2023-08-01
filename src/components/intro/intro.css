@@ -184,3 +184,12 @@
     overflow: visible;
   }
 }
+
+
+@media screen and (max-width: 300px) {
+  .i-name {
+    font-size: 2rem;
+  }
+
+
+}
