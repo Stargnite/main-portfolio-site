@@ -190,6 +190,10 @@
   .i-name {
     font-size: 2rem;
   }
+}
 
-
+@media screen and (max-width: 260px) {
+  .i-name {
+    font-size: 1.7rem;
+  }
 }
