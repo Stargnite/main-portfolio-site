@@ -6,8 +6,12 @@ const Intro = () => {
     <div className="i" id="home">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro"><div className="hello">Hello</div>, my name is</h2>
-          <h1 className="i-name"><span className="highlight-name">OLUWATOBI</span> SOBAYO</h1>
+          <h2 className="i-intro">
+            <div className="hello">Hello</div>, my name is
+          </h2>
+          <h1 className="i-name">
+            <span className="highlight-name">OLUWATOBI</span> SOBAYO
+          </h1>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Software Engineer</div>
@@ -18,14 +22,20 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-desc">
-          I develop websites for both personal clients and companies who are
+            {/* I develop websites for both personal clients and companies who are
 			willing to get the best UIs for their users. I also help in growing startups
 			with my skills by developing, managing and promoting their website contents in the
-			global market.
+			global market. */}
+            Enthusiastic Frontend Developer with a passion for creating
+            captivating and user-centered web experiences. Proficient in HTML,
+            CSS, JavaScript, React and Vue, applying responsive design
+            principles. Collaborative team player eager to contribute creativity
+            and a strong willingness to learn. Excited to leverage academic
+            knowledge and project experience to deliver meaningful digital
+            solutions.
           </p>
-        </div>  
+        </div>
       </div>
-
 
       <div className="i-right">
         <div className="i-bg"></div>
