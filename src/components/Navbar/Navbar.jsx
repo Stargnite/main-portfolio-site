@@ -56,7 +56,7 @@ export default function Navbar() {
 
           <a href="https://docs.google.com/document/d/1HRSf0vq37Z9WphhQIGYmm6_MhlFd1HDAiVhO63MWrik/edit?usp=sharing" target='_blank'>
             <button className="resume">
-              <i class="fa fa-download"></i>Resume
+              <i className="fa fa-download"></i>Resume
             </button>
           </a>
         </div>
