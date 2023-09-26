@@ -31,13 +31,13 @@ export const projectItem = [
     desc: "Open source",
   },
   {
-    id: 5,
+    id: 6,
     img: "https://i.ibb.co/s50BrC3/projectshot2.png",
     link: "https://sobayo-restaurant-website.netlify.app/",
     desc: "Restaurant website",
   },
   {
-    id: 6,
+    id: 7,
     img: "https://i.ibb.co/5FZ1G4d/projectshot4.png",
     link: "https://sobayo-photography-site.netlify.app/",
     desc: "Photography website",
