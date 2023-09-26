@@ -5,7 +5,7 @@ export const ThemeContext = createContext();
 const INITIAL_STATE = { darkMode: true };
 
 const themeReducer = (state, action) => {
-  switch (action.type) {
+  switch  (action.type) {
     case "TOGGLE":
       return { darkMode: !state.darkMode };
     default:
