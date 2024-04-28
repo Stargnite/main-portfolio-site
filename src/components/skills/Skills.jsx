@@ -13,7 +13,7 @@ export default function Skills() {
         <section className="skill-icons">
           {skillIcons.map((skillIcon) => {
             return (
-              <div key={skillIcon.key} className='skill-box'>
+              <div key={skillIcon.id} className='skill-box'>
                 <img src={skillIcon.imgLink} alt="" className="skill-logo" />
                 <div className="logo-name">
                   {skillIcon.name}
